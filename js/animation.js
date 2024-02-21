@@ -6,12 +6,14 @@ document.addEventListener('DOMContentLoaded', () => {
     let color1 = '#61AFEF';
     let color2 = '#ABB2BF';
     let color3 = '#4da4be';
-    let stroke = '#CCCCCC';
+    let stroke = '#48B7FF';
 
     joinButton.addEventListener('mouseenter', () => {
         console.log('Mouse entered the join button area');
         // You can do something here when the mouse enters the button area.
-        effect.setColorScheme('#ee6217', '#dacc8a', '#be1414', '#ceb6a3');
+        //color1, color2, color3, stroke
+        effect.setColorScheme('#C181FF', '#8047DE', '#A064FE', '#BAA1D5');
+        //effect.setColorScheme('#ee6217', '#dacc8a', '#be1414', '#ceb6a3');
     });
     joinButton.addEventListener('mouseleave', () => {
         console.log('Mouse left the join button area');
