@@ -93,7 +93,7 @@
             </div>
         </div>
     </div>
-    <script>function navigation() { return { isMobileMenuOpen: !0, darkMode: JSON.parse(localStorage.getItem("darkMode") || "false"), menuItems: [{ identifier: "clinic", name: "Coding Clinic", url: "/clinic/" }, { identifier: "events", name: "Events", url: "/gitworkshop/" }, { identifier: "about", name: "About", url: "/about/" }, { identifier: "contact", name: "Contact ", url: "/contact/" }], toggleDarkMode() { this.darkMode = !this.darkMode, localStorage.setItem("darkMode", JSON.stringify(this.darkMode)), this.applyDarkMode() }, applyDarkMode() { this.darkMode ? document.documentElement.classList.add("dark") : document.documentElement.classList.remove("dark") }, init() { this.applyDarkMode() } } } document.addEventListener("alpine:init", () => { Alpine.data("navigation", navigation) })</script>
+    <script>function navigation() { return { isMobileMenuOpen: !0, darkMode: JSON.parse(localStorage.getItem("darkMode") || "false"), menuItems: [{ identifier: "events", name: "Events", url: "/gitworkshop/" }, { identifier: "about", name: "About", url: "/about/" }, { identifier: "contact", name: "Contact ", url: "/contact/" }], toggleDarkMode() { this.darkMode = !this.darkMode, localStorage.setItem("darkMode", JSON.stringify(this.darkMode)), this.applyDarkMode() }, applyDarkMode() { this.darkMode ? document.documentElement.classList.add("dark") : document.documentElement.classList.remove("dark") }, init() { this.applyDarkMode() } } } document.addEventListener("alpine:init", () => { Alpine.data("navigation", navigation) })</script>
     <main>
         <div id=animated-bg class="bg-cloud-100 dark:bg-cloud-950 relative"><canvas id=canvas
                 class="absolute top-0 left-0 w-full h-full z-0"></canvas>
